@@ -1,0 +1,25 @@
+OpenGL (Open Graphics Library) este un API de redare grafica care permite dezvoltarea de aplicatii grafice 2D si 3D. 
+Este utilizat pe scara larga in jocuri video si aplicatii vizuale, functionand pe diverse sisteme de operare precum Windows, macOS si Linux.
+Printre derivatii sai, OpenGL ES este folosit pe dispozitive mobile, iar WebGL permite rularea graficii 3D direct in browser.
+
+OpenGL are avantajul portabilitatii, permitand dezvoltatorilor sa scrie un cod compatibil pe mai multe platforme. 
+De asemenea, ofera acces direct la GPU, asigurand performante ridicate. 
+Este folosit pe o gama larga de dispozitive si beneficiaza de suport extins din partea comunitatii.
+
+Totusi, are si puncte slabe. Este dificil de invatat pentru incepatori si depinde de driverele hardware, ceea ce poate afecta performanta. 
+In plus, este mai putin modern decat alte API-uri recente, precum Vulkan, care ofera performante mai bune si functii avansate.
+
+OpenGL functioneaza ca un automat cu stari finite. 
+Modelul de functionare al OpenGL poate fi descris ca un automat cu stari finite. Fiecare stare din acest model determina cum va fi procesata grafica in cadrul aplicatiei.
+Aceste stari includ aspecte precum modul in care vor fi desenate obiectele, aplicarea texturilor pe obiecte 3D sau testele care determina daca un pixel ar trebui sa fie randat. 
+La fiecare pas din procesul de randare, OpenGL trece printr-o serie de stari care influenteaza modul in care scena este reprezentata.
+
+Modelul de automat cu stari finite are un impact semnificativ asupra procesului de randare. Unul dintre avantajele acestui model este flexibilitatea. 
+Dezvoltatorii au control detaliat asupra fiecarui pas din procesul de randare, de la aplicarea shader-elor la teste de profunzime sau transparenta. 
+Cu toate acestea, acest model poate crea si o suprasarcina in gestionarea eficienta a starilor. 
+Schimbarile frecvente de stare pot afecta performanta, mai ales pe hardware mai putin puternic.
+
+In opinia mea, OpenGL si derivatii sai continua sa joace un rol esential in dezvoltarea aplicatiilor grafice, mai ales datorita portabilitatii si adoptarii lor pe scara larga. 
+Cu toate acestea, in contextul evolutiei rapide a tehnologiei grafice, API-uri mai moderne, cum ar fi Vulkan, ofera avantaje semnificative in ceea ce priveste performanta si controlul
+
+In concluzie, OpenGL este inca util datorita versatilitatii sale, dar pentru aplicatii avansate, API-uri moderne precum Vulkan sunt o optiune mai buna.
